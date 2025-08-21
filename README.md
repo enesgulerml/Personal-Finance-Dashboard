@@ -1,17 +1,28 @@
-# Personal Finance & Budget Tracker
+# 📊 Personal Finance Dashboard
 
-Interactive Streamlit dashboard for tracking stocks, currencies, and cryptocurrencies with real-time data using yfinance.
+A simple yet powerful dashboard to track **stocks, cryptocurrencies, and currencies** in real-time, built with **Streamlit**.
 
-## Features
-- Dynamic stock tracking with historical charts
-- Currency exchange rates in USD
-- Cryptocurrency prices in USD
-- Simple budget tracker
+## 🚀 Features
+- 📈 Track stocks (e.g., AAPL, TSLA, MSFT)  
+- 💰 Monitor cryptocurrencies (BTC, ETH, etc.)  
+- 💱 Convert currencies in real-time (USD, EUR, TRY, etc.)  
+- 🔎 Search functionality with interactive sidebar  
+- 💵 All values displayed in **USD** for easy comparison  
 
-## How to Run
-1. Clone the repo
-2. Create virtual environment and install dependencies:
+## 🛠️ Technologies Used
+- Python  
+- Streamlit  
+- yfinance  
+- forex-python  
+
+## ⚡ Installation & Usage
+1. Clone the repository:
    ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/enesgulerml/Personal-Finance-Dashboard.git
+
+cd Personal-Finance-Dashboard
+
+pip install -r requirements.txt
 
 streamlit run app.py
+
