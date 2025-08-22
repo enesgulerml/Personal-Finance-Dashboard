@@ -34,7 +34,7 @@ with tab2:
     currency_code = st.text_input("Enter a currency code (e.g. EUR, GBP, JPY, TRY):", key="currency")
     if st.button("Get Currency Data", key="currency_btn"):
         if currency_code:
-            pair = currency_code.upper() + "USD=X"   # otomatik USD pair yap
+            pair = currency_code.upper() + "USD=X"
             currency = yf.Ticker(pair)
             data = currency.history(period="5d")
 
@@ -53,7 +53,7 @@ with tab3:
     crypto_code = st.text_input("Enter a cryptocurrency symbol (e.g. BTC, ETH, SOL):", key="crypto")
     if st.button("Get Crypto Data", key="crypto_btn"):
         if crypto_code:
-            pair = crypto_code.upper() + "-USD"   # otomatik USD pair yap
+            pair = crypto_code.upper() + "-USD"
             crypto = yf.Ticker(pair)
             data = crypto.history(period="5d")
 
